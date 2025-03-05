@@ -1,0 +1,22 @@
+@media screen and (max-width:1600px) {
+    /* 헤더 */
+    .h_bg header {padding: 0 80px;}
+    .h_bg header .h_btm nav > ul > li {margin-right: 20px;}
+
+    /* 푸터 */
+    footer .ft_bg {padding: 0 80px;}
+}
+
+
+@media screen and (max-width:799px) {
+    /* 헤더 */
+    .h_bg header {padding: 0 15px; height: 57px;}
+    .h_bg header .h_btm {padding-top: 7px;}
+    .h_bg header .h_btm > a > img {display: block;}
+    .h_bg header .h_btm > nav {display: none;}
+
+    /* 푸터 */
+    footer .ft_bg {padding: 0 15px;}
+    footer .ft_bg .ft_btm {flex-flow: row wrap;}
+
+}
